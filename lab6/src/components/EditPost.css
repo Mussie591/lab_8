@@ -1,0 +1,38 @@
+.edit-post {
+    margin-top: 20px;
+    border: 2px solid #4682B4;
+    padding: 20px;
+    width: 300px;
+    border-radius: 5px;
+  }
+  
+  .edit-post h2 {
+    margin-top: 0;
+  }
+  
+  .edit-post form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .edit-post input,
+  .edit-post textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .edit-post button {
+    padding: 10px;
+    background-color: #4682B4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .edit-post button:hover {
+    background-color: #5a9bd6;
+  }
+  

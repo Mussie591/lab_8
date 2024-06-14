@@ -1,0 +1,56 @@
+.post-details {
+  border: 2px solid #4682B4;
+  padding: 20px;
+  margin-top: 20px;
+  width: 750px;
+  text-align: center;
+}
+
+.post-details h2,
+.post-details p {
+  font-size: 1.2em;
+  margin: 10px 0;
+  font-weight: normal;
+}
+
+.post-details .content {
+  font-size: 1.2em;
+  text-align: center;
+}
+
+.post-details .buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.post-details .buttons .edit {
+  color: blue;
+  border: 1px solid blue;
+  background: none;
+  cursor: pointer;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.post-details .buttons .delete {
+  color: red;
+  border: 1px solid red;
+  background: none;
+  cursor: pointer;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.comments {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.comment {
+  margin-top: 10px;
+  padding: 10px;
+  border: 1px solid #4682B4;
+  border-radius: 5px;
+}

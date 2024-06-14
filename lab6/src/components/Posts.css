@@ -1,0 +1,7 @@
+/* src/components/Posts.css */
+.container {
+  display: flex;
+  justify-content: flex-start; /* Aligns posts to the start */
+  width: 100%;
+  gap: 20px;
+}

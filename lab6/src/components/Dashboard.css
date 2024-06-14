@@ -1,0 +1,33 @@
+.dashboard {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.grid-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.posts-wrapper {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+  gap: 20px;
+}
+
+.details-container {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.add-post-container {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
